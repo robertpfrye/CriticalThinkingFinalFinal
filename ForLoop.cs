@@ -7,12 +7,22 @@ namespace CriticalThinkingWorksheet
     class ForLoop
     {
         //variables
-        int forLoop;
-        
+        public int forLoop;
         //constructors
-        ForLoop = 
-
+        public ForLoop()
+        {
+            forLoop = 0;
+        }
         //methods
-        for ()
+        //for loop
+        public void DoForLoop()
+        {
+            for ( int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+        }
+
     }
 }
