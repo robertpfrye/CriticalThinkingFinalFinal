@@ -19,28 +19,36 @@ namespace CriticalThinkingWorksheet
         //variables
         public int forLoop;
         public string userInput;
+        public string helloWorld = "Hello World";
+        
         //constructors
         public ForLoop()
         {
         }
+        
+        
         //methods
         //for loop
-        public string CaptureInputForLoop()
-        {
-            Console.WriteLine("Enter a numerically typed number for how many times the loop should run.");
-            userInput = Console.ReadLine();
-            return userInput;
-        }
+        //public string CaptureInputForLoop()
+        //{
+        //    Console.WriteLine("Enter a numerically typed number for how many times the loop should run.");
+        //    userInput = Console.ReadLine();
+        //    return userInput;
+        //}
 
-        public void ConvertUserInput()
-        {
-            forLoop = Int32.Parse(userInput);
+        
             
-        }
+            //public void ConvertUserInput()
+        //{
+        //    forLoop = Int32.Parse(userInput);
+        //}
+        
+        
+        
         public void DoForLoop()
         {
-            ConvertUserInput();
-            for ( int i = 0; i < forLoop ; i++)
+            //ConvertUserInput();
+            for ( int i = 0; i < helloWorld.Length ; i++)
             {
                 Console.Write(i);
             }
