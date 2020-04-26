@@ -28,6 +28,7 @@ namespace CriticalThinkingWorksheet
         
         
         //methods
+
         //for loop
         //public string CaptureInputForLoop()
         //{
@@ -37,20 +38,35 @@ namespace CriticalThinkingWorksheet
         //}
 
         
-            
-            //public void ConvertUserInput()
+        //public void ConvertUserInput()
         //{
         //    forLoop = Int32.Parse(userInput);
         //}
+
         
         
         
         public void DoForLoop()
         {
-            //ConvertUserInput();
+
+
+
+
+
+
+
+
+            //two ways to have a loop read and then write a string ⦁	I.e “H,e,l,l,o, ,W,o,r,l,d”
+            foreach (char c in helloWorld)
+            {
+                Console.Write(c);
+            }
+
+            Console.Write("\n");
+
             for ( int i = 0; i < helloWorld.Length ; i++)
             {
-                Console.Write(i);
+                Console.Write(helloWorld[i]);
             }
         }
 
