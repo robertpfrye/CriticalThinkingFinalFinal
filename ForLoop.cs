@@ -57,14 +57,15 @@ namespace CriticalThinkingWorksheet
 
 
             //two ways to have a loop read and then write a string ⦁	I.e “H,e,l,l,o, ,W,o,r,l,d”
-            foreach (char c in helloWorld)
-            {
-                Console.Write(c);
-            }
+            //foreach (char c in helloWorld)
+            //{
+            //    Console.Write(c);
+            //}
+
 
             Console.Write("\n");
 
-            for ( int i = 0; i < helloWorld.Length ; i++)
+            for ( int i = 0; i < helloWorld.Length ; i+=2)
             {
                 Console.Write(helloWorld[i]);
             }
