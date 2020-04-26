@@ -7,6 +7,8 @@ namespace CriticalThinkingWorksheet
         static void Main(string[] args)
         {
             ForLoop forLoop = new ForLoop();
+            forLoop.CaptureInputForLoop();
+            forLoop.ConvertUserInput();
             forLoop.DoForLoop();
         }
     }
