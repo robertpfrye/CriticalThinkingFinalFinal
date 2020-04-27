@@ -64,10 +64,16 @@ namespace CriticalThinkingWorksheet
 
 
             Console.Write("\n");
-
-            for ( int i = 0; i < helloWorld.Length ; i+=2)
+            if (helloWorld.Length % 3 == 0)
             {
-                Console.Write(helloWorld[i]);
+                for (int i = 0; i < helloWorld.Length; i += 2)
+                {
+                    Console.Write(helloWorld[i]);
+                }
+            }
+            else
+            {
+                Console.Write("Not divisible by 3");
             }
         }
 
