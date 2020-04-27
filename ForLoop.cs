@@ -6,8 +6,8 @@ using System.Text.RegularExpressions;
 namespace CriticalThinkingWorksheet
 {
     class ForLoop
-    {/*
-
+    {
+        /*
         //member variables
         public int forLoop;
         public string userInput;

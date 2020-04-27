@@ -6,7 +6,7 @@ namespace CriticalThinkingWorksheet
 {
     class WhileLoop
     {
-
+        /*
         //member variables
         public int whileLoop;
         public int counter = 5;
@@ -32,7 +32,6 @@ namespace CriticalThinkingWorksheet
             }
             Console.WriteLine(counter + " Thanks you");
         }
-
-
+        */
     }
 }
