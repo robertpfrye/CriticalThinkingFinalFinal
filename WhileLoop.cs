@@ -22,16 +22,15 @@ namespace CriticalThinkingWorksheet
         //member methods
         public void While()
         {
-            Console.WriteLine("Please enter a numerically typed number");
-            whileInput = Console.ReadLine();
+            while (counter != 42)
             {
-                counter = Int32.Parse(whileInput);
+                Console.WriteLine("Please enter the numerically typed number 42");
+                whileInput = Console.ReadLine();
+                {
+                    counter = Int32.Parse(whileInput);
+                }
             }
-            while (counter < 25)
-            {
-                counter++;
-            }
-            Console.WriteLine(counter);
+            Console.WriteLine(counter + " Thanks you");
         }
 
 
