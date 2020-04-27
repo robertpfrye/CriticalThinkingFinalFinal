@@ -10,7 +10,7 @@ namespace CriticalThinkingWorksheet
         //member variables
         public int whileLoop;
         public int counter = 5;
-
+        public string whileInput;
 
 
         //constructor
@@ -22,12 +22,16 @@ namespace CriticalThinkingWorksheet
         //member methods
         public void While()
         {
-            while(counter < 25)
+            Console.WriteLine("Please enter a numerically typed number");
+            whileInput = Console.ReadLine();
+            {
+                counter = Int32.Parse(whileInput);
+            }
+            while (counter < 25)
             {
                 counter++;
-                Console.WriteLine(counter);
             }
-
+            Console.WriteLine(counter);
         }
 
 
