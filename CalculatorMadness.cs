@@ -17,5 +17,10 @@ namespace CriticalThinkingWorksheet
             Console.WriteLine("The result of this addition is: " + result);
         }
 
+        public void RunCalculations()
+        {
+            AddTwoNumbers(5, 7);
+        }
+
     }
 }
