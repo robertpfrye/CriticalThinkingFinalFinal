@@ -11,7 +11,7 @@ namespace CriticalThinkingWorksheet
             CalculatorMadness calculatorMadness = new CalculatorMadness();
 
 
-            calculatorMadness.AddTwoNumbers( 2, 3);
+            calculatorMadness.RunCalculations();
         }
     }
 }
