@@ -6,17 +6,12 @@ namespace CriticalThinkingWorksheet
     {
         static void Main(string[] args)
         {
-            /*
-            ForLoop forLoop = new ForLoop();
-            forLoop.CaptureInputForLoop();
-            forLoop.ConvertUserInput();
-            forLoop.DoForLoop();
 
-            WhileLoop whileLoop = new WhileLoop();
-            whileLoop.While();
-            */
 
-            
+            CalculatorMadness calculatorMadness = new CalculatorMadness();
+
+
+            calculatorMadness.AddTwoNumbers( 2, 3);
         }
     }
 }
