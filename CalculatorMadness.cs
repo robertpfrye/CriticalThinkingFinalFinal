@@ -17,7 +17,7 @@ namespace CriticalThinkingWorksheet
             return result;
         }
 
-        public int SubtractTwoNumber(int numberOne, int numberTwo)
+        public int SubtractTwoNumbers(int numberOne, int numberTwo)
         {
             int result = numberOne - numberTwo;
             return result;
@@ -50,13 +50,13 @@ namespace CriticalThinkingWorksheet
             int output2 = DivideTwoNumbers(output1, value5);
             //exponents
             int output3 = MultiplyTwoNumbers(value6, value6);
-            //multiplication
-            //division
-            //addition
+            //multiplication/division
+            //addition/subtractions
             int output4 = AddTwoNumbers(value1, value2);
-            int output5 = AddTwoNumbers(output2, output3);
-            //subtractions
-            int output6 = SubtractTwoNumber(output4, output5);
+            int output5 = SubtractTwoNumbers(output4, output2);
+            int output6 = AddTwoNumbers(output5, output3);
+            
+
             Console.WriteLine("The result of the above calculation is: " +output6);
 
         }
