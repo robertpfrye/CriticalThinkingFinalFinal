@@ -11,6 +11,11 @@ namespace CriticalThinkingWorksheet
         public double EffectiveMemory;
 
         //constructor
+        public GPU(string manufactuerer, double effectiveMemory)
+        {
+            Manufacturer = manufactuerer;
+            EffectiveMemory = effectiveMemory;
+        }
         //member methods
 
     }
